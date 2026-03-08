@@ -1,0 +1,39 @@
+body{
+text-align:center;
+font-family:Arial;
+background:#111;
+color:white;
+}
+
+canvas{
+background:black;
+border:3px solid white;
+display:none;
+}
+
+#startMenu{
+margin-top:100px;
+}
+
+#pauseMenu{
+display:none;
+font-size:40px;
+}
+
+#gameOver{
+display:none;
+}
+
+#mobileControls{
+position:fixed;
+bottom:20px;
+width:100%;
+display:flex;
+justify-content:space-between;
+padding:0 50px;
+}
+
+button{
+font-size:20px;
+padding:10px 20px;
+}

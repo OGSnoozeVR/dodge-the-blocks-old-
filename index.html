@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Dodge Ultimate</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="startMenu">
+<h1>DODGE ULTIMATE</h1>
+<input id="playerName" placeholder="Enter Name">
+<button onclick="startGame()">Start Game</button>
+</div>
+
+<canvas id="gameCanvas" width="600" height="400"></canvas>
+
+<div id="pauseMenu">PAUSED</div>
+
+<div id="gameOver">
+<h2>Game Over</h2>
+<p id="finalScore"></p>
+<button onclick="restartGame()">Restart</button>
+</div>
+
+<div id="mobileControls">
+<button id="leftBtn">◀</button>
+<button id="rightBtn">▶</button>
+</div>
+
+<h2>Leaderboard</h2>
+<ul id="leaderboard"></ul>
+
+<script src="script.js"></script>
+
+</body>
+</html>
